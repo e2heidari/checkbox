@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: lightpink;
+    width: 90%;
+    height: 600px;
+    border-radius: 20px;
+    margin: 30px auto;
+    border: 2px solid;
+}
+
+.under {
+    background-color: limegreen;
+    width: 80%;
+    height: 400px;
+    border-radius: 20px;
+    margin: 100px auto;
+    border: 2px solid;
+}
+
+.top {
+    background-color: lightseagreen;
+    width: 80%;
+    height: 400px;
+    border-radius: 20px;
+    margin: 100px auto;
+    border: 2px solid;
+}
+
+div.top {
+    position: relative;
+    top: -500px;
+}
+
+input[type=checkbox]:checked~.top {
+    display: none;
+}
