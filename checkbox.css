@@ -4,7 +4,7 @@
 
 .main {
     background-color: lightpink;
-    width: 90%;
+    width: 1000px;
     height: 600px;
     border-radius: 20px;
     margin: 30px auto;
@@ -13,7 +13,7 @@
 
 .under {
     background-color: limegreen;
-    width: 80%;
+    width: 900px;
     height: 400px;
     border-radius: 20px;
     margin: 100px auto;
@@ -22,7 +22,7 @@
 
 .top {
     background-color: lightseagreen;
-    width: 80%;
+    width: 900px;
     height: 400px;
     border-radius: 20px;
     margin: 100px auto;
@@ -31,9 +31,9 @@
 
 div.top {
     position: relative;
-    top: -500px;
+    top: -600px;
 }
 
-input[type=checkbox]:checked~.top {
+input[type=checkbox]:checked~div.top {
     display: none;
 }
